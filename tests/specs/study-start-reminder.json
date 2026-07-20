@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Начать повторение",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Resume study session from daily reminder"
+            }
+          }
+        ],
+        "send": {
+          "callback": "study:start_reminder"
+        }
+      }
+    ]
+  }
+]
