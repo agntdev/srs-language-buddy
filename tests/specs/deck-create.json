@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Create Deck",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiate deck creation flow"
+            }
+          }
+        ],
+        "send": {
+          "callback": "deck:create"
+        }
+      }
+    ]
+  }
+]
